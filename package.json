@@ -1,0 +1,14 @@
+{
+  "name": "skill-audit",
+  "version": "1.0.0",
+  "description": "Audit Claude Code skill token costs and usage frequency",
+  "type": "module",
+  "bin": {
+    "skill-audit": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["claude", "claude-code", "skills", "tokens", "cost", "audit"],
+  "license": "MIT"
+}
